@@ -36,13 +36,6 @@ RUN rm -f /etc/apt/sources.list && \
 	apt-get update && \
 	apt-get install -y \
 #Packages Installation
-        php7.2 \
-        php7.2-curl \
-        php7.2-gd \
-        php7.2-json \
-        php7.2-mbstring \
-        php7.2-intl \
-        php7.2-xml \
 	tzdata \
 	software-properties-common \
 	apt-transport-https \
